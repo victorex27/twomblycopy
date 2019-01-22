@@ -95,7 +95,7 @@ if(isset($_GET['post_id'])){
 									<h6> <?php echo $lastname." ".$firstname; ?></h6> 
 									<p><?php echo time_elapsed_string($time); ?></p>
 									<p><span class="mar"><?php echo $category; ?></span></p>
-									<h2> <?php echo $title.$fav; ?></h2>
+									<h2> <?php echo $title; ?></h2>
 									<p class="readmore" style="word-wrap: break-word; "><?php echo $message; ?>.</p>
 								</div>
 								
